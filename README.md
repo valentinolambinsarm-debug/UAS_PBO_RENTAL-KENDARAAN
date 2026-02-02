@@ -1,43 +1,40 @@
-🚗 Java Rental Management System (UASTBO)
-Aplikasi manajemen persewaan kendaraan (Mobil & Motor) berbasis Java Desktop (Swing) yang menerapkan prinsip Object-Oriented Programming (OOP) secara mendalam. Proyek ini dibuat untuk memenuhi tugas besar Pemrograman Berorientasi Objek.
+# 🚗 Java Rental Management System (UASTBO)
 
-🌟 Fitur Utama
-Dashboard Informatif: Menampilkan statistik ketersediaan unit mobil dan motor secara real-time.
+Aplikasi manajemen persewaan kendaraan (Mobil & Motor) berbasis Java Desktop (Swing) yang menerapkan prinsip **Object-Oriented Programming (OOP)**. Proyek ini dibuat untuk memenuhi tugas besar mata kuliah Pemrograman Berorientasi Objek.
 
-Form Transaksi Dinamis: Input data penyewaan dengan perhitungan total biaya otomatis dan pemilihan unit yang tersedia saja.
+---
 
-Kelola Pelanggan: Manajemen data penyewa yang mendukung fitur Pencarian, Update, dan Hapus data.
+## 🌟 Fitur Utama
 
-Cek Status Kendaraan: Modul khusus untuk memantau status setiap unit (Tersedia atau Sedang Disewa).
+* **Dashboard Informatif**: Statistik ketersediaan unit mobil dan motor secara real-time.
+* **Form Transaksi Dinamis**: Input penyewaan dengan kalkulasi biaya otomatis.
+* **Kelola Pelanggan**: Fitur CRUD (Create, Read, Update, Delete) data penyewa.
+* **Cek Status Kendaraan**: Modul monitoring status unit (Tersedia/Disewa).
+* **Riwayat & Laporan**: Ekspor data riwayat transaksi ke format `.txt`.
+* **Exit Confirmation**: Panel mitigasi untuk mencegah keluar aplikasi secara tidak sengaja.
 
-Riwayat & Laporan: Fitur pelaporan transaksi yang mendukung ekspor data ke format .txt (Cetak Laporan).
+---
 
-Exit Confirmation: Panel mitigasi untuk mencegah pengguna keluar aplikasi secara tidak sengaja.
+## 🛠️ Konsep OOP yang Diterapkan
 
-
-🛠️ Konsep OOP yang Diterapkan
 Proyek ini mendemonstrasikan implementasi pilar-pilar OOP:
+1. **Inheritance**: `ParentKendaraan` sebagai super-class bagi `SubMobil` dan `SubMotor`.
+2. **Polymorphism**: Overriding method pada sub-class untuk logika biaya spesifik.
+3. **Encapsulation**: Penggunaan akses modifier private dan getter/setter pada class model.
+4. **Abstraction**: Standarisasi status kendaraan melalui interface/class abstrak.
 
-Inheritance: Menggunakan ParentKendaraan sebagai super-class bagi SubMobil dan SubMotor.
+---
 
-Polymorphism: Overriding method pada sub-class untuk logika perhitungan denda atau biaya yang spesifik.
+## 📂 Struktur Data
 
-Encapsulation: Penggunaan akses modifier private dan method getter/setter pada class model seperti DomPelanggan dan RelTransaksi.
+Aplikasi ini menggunakan **File I/O** sebagai database sederhana:
+* Data disimpan secara permanen dalam file teks via class `UtilitiesFile`.
+* Menggunakan `ArrayList` untuk manipulasi data di dalam memori.
 
-Abstraction: Implementasi interface atau class abstrak untuk standarisasi status kendaraan.
+---
 
+## 🚀 Cara Menjalankan
 
-📁 Struktur Data
-Aplikasi ini menggunakan File I/O sebagai database sederhana:
-
-Data disimpan secara permanen dalam file teks melalui class UtilitiesFile.
-
-Menggunakan ArrayList untuk manipulasi data di dalam memori saat aplikasi berjalan.
-
-
-🖥️ Preview UI
-Main Menu: Navigasi menggunakan sidebar dengan sistem CardLayout.
-
-Transaction: Form interaktif dengan validasi input.
-
-Report: Output data rapi dalam format tabel teks.
+1. Clone repositori ini:
+   ```bash
+   git clone [https://github.com/username/nama-repo.git](https://github.com/username/nama-repo.git)
