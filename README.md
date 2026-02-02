@@ -14,6 +14,7 @@ Riwayat & Laporan: Fitur pelaporan transaksi yang mendukung ekspor data ke forma
 
 Exit Confirmation: Panel mitigasi untuk mencegah pengguna keluar aplikasi secara tidak sengaja.
 
+
 🛠️ Konsep OOP yang Diterapkan
 Proyek ini mendemonstrasikan implementasi pilar-pilar OOP:
 
@@ -25,6 +26,7 @@ Encapsulation: Penggunaan akses modifier private dan method getter/setter pada c
 
 Abstraction: Implementasi interface atau class abstrak untuk standarisasi status kendaraan.
 
+
 📁 Struktur Data
 Aplikasi ini menggunakan File I/O sebagai database sederhana:
 
@@ -32,16 +34,6 @@ Data disimpan secara permanen dalam file teks melalui class UtilitiesFile.
 
 Menggunakan ArrayList untuk manipulasi data di dalam memori saat aplikasi berjalan.
 
-🚀 Cara Menjalankan
-Clone repositori ini:
-
-Bash
-git clone https://github.com/username/nama-repo.git
-Buka project menggunakan Apache NetBeans IDE.
-
-Pastikan semua library standard JDK sudah terpasang.
-
-Klik Clean and Build, lalu Run Project.
 
 🖥️ Preview UI
 Main Menu: Navigasi menggunakan sidebar dengan sistem CardLayout.
