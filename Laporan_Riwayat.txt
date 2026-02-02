@@ -1,0 +1,4 @@
+======= LAPORAN RIWAYAT PENYEWAAN =======
+Nama            | Unit         | Total     
+-----------------------------------------
+keny            | Rolls Royce  | Rp 8100000.0

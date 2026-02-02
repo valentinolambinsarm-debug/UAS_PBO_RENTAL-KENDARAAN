@@ -1,0 +1,4 @@
+======= LAPORAN RIWAYAT PENYEWAAN =======
+Nama            | Unit         | Total     
+-----------------------------------------
+Udin Jeletot    | Vario        | Rp 500000.0
